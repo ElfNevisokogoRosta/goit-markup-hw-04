@@ -148,8 +148,6 @@ body {
 }
 .adress {
   width: 231px;
-  display: flex;
-  flex-direction: column;
   padding-top: 20px;
 }
 .icon-bottom {
@@ -166,7 +164,9 @@ body {
   color: var(--background-color);
   text-decoration: none;
 }
-
+.adress a{
+  display: block;
+}
 .footer-link {
   font-style: normal;
   font-weight: 400;
