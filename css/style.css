@@ -53,7 +53,10 @@ body {
   line-height: 1.16;
   color: var(--title-text-color);
 }
-
+.list{
+  margin: 0px;
+  padding: 0px;
+}
 .button {
   font-family: inherit;
   cursor: pointer;
@@ -217,10 +220,6 @@ body {
 }
 
 /* benefits section */
-.benefits{
-  padding-top: 52px;
-  
-}
 .benefits-elements{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -230,7 +229,7 @@ body {
   margin-bottom: 0px;
 }
 .title-hiden {
-  visibility: hidden;
+  display: none;
 }
 
 .benefits-element h3 {
@@ -315,9 +314,6 @@ body {
 
 /*portofolio page style*/
 /*common style*/
-.portofolio{
-  padding-top: 52px;
-}
 .portofolio li {
   list-style-type: none;
 }
