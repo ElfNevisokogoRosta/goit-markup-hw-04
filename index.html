@@ -14,23 +14,33 @@
 </head>
 <body>
   <!--header-->
-  <header class="header">
+  <header>
     <div class="container flex-box">
       <!--navigation-->
       <nav class="nav flex-box">
-        <a href="./index.html" class="icon">
-          Web<span class="icon-top">Studio</span>
+        <a href="./index.html" class="main-title">
+          Web<span class="title-top">Studio</span>
         </a>
-        <ul class="main-nav flex-box">
-          <li><a class="nav-link" href="./index.html">Студия</a></li>
+        <ul class="main-nav flex-box list">
+          <li><a class="nav-link curent-page" href="./index.html">Студия</a></li>
           <li><a class="nav-link" href="./portofolio.html">Портфолио</a></li>
           <li><a class="nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
         <!--some contact info-->  
-      <div class="contact-nav">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <div class="contact-nav flex-box">
+        <a class="flex-box" href="mailto:info@devstudio.com">
+          <svg class="icon-mail" width="16" height="12">
+            <use href="./img/index/icons.svg#icon-mail"></use>
+          </svg>
+          info@devstudio.com
+        </a>
+        <a class="flex-box" href="tel:+380961111111">
+          <svg class="icon-smartphone" width="10" height="16" >
+            <use href="./img/index/icons.svg#icon-smartphone"></use>
+          </svg>
+          +38 096 111 11 11
+        </a>
       </div>
     </div>
   </header>
@@ -45,23 +55,51 @@
     <!--benefits-->
     <section class="section benefits">
       <div class="container"> 
-        <h2 class="section-title title-hiden">Особенности</h2>
+        <h2 class="visually-hidden">Особенности</h2>
         <ul class="list benefits-elements flex-box">
           <li class="benefits-element">
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <a class="benefits-field flex-box" href="">
+              <svg class="benefits-icon">
+                <use href="./img/index/icons.svg#icon-antenna"></use>
+              </svg>
+            </a>
+            <div>
+              <h3>Внимание к деталям</h3>
+              <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </div>
           </li>
           <li class="benefits-element">
+              <a class="benefits-field  flex-box" href="">
+              <svg class="benefits-icon">
+                <use href="./img/index/icons.svg#icon-clock"></use>
+              </svg>                  
+            </a>
+           <div>
             <h3>Пунктуальность</h3>
             <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+           </div>
           </li>
           <li class="benefits-element">
-            <h3>Планирование</h3>
-            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <a class="benefits-field  flex-box" href="">
+              <svg class="benefits-icon">
+                <use href="./img/index/icons.svg#icon-diagram"></use>
+              </svg>                
+            </a>
+            <div>
+              <h3>Планирование</h3>
+              <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            </div>
           </li>
           <li class="benefits-element">
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+              <a class="benefits-field  flex-box" href="">
+              <svg class="benefits-icon">
+                <use href="./img/index/icons.svg#icon-astronaut"></use>
+              </svg>                
+            </a>
+            <div>
+              <h3>Современные технологии</h3>
+              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -107,6 +145,36 @@
                 <h3>Игорь Демьяненко</h3>
                 <p>Product Designer</p>
               </div>
+              <ul class="list team-icon-list flex-box">
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-element">
               <img class="img"
@@ -118,6 +186,36 @@
                 <h3>Ольга Репина</h3>
                 <p>Frontend Developer</p>
               </div>
+              <ul class="list team-icon-list flex-box">
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-element">
               <img class="img"
@@ -129,6 +227,36 @@
                 <h3>Николай Тарасов</h3>
                 <p>Marketing</p>
               </div>
+              <ul class="list team-icon-list flex-box">
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-element">
               <img class="img"
@@ -140,21 +268,134 @@
                 <h3>Михаил Ермаков</h3>
                 <p>UI Designer</p>
               </div>
+              <ul class="list team-icon-list flex-box">
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-icon-bg" href="">
+                    <svg class="team-icon">
+                      <use href="./img/index/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
       </section>
-    </main>
-  
-    <footer class="footer">
-      <div class="container ">
-        <a href="./index.html" class="icon footer-icon">Web<span class="icon-bottom">Studio</span></a>
-        <address class="adress">
-          <a href="" class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a>
-          <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
-          <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
-        </address>
+      <section class="section company">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="list company-list flex-box">
+          <li class="company-list-item">
+            <a class="company-icon-bg" href="">
+              <svg class="company-icon">
+                <use href="./img/index/icons.svg#icon-yaco"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="company-list-item">
+            <a class="company-icon-bg" href="">
+              <svg class="company-icon">
+                <use href="./img/index/icons.svg#icon-tagline"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="company-list-item">
+            <a class="company-icon-bg" href="">
+              <svg class="company-icon">
+                <use href="./img/index/icons.svg#icon-sliced"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="company-list-item">
+            <a class="company-icon-bg" href="">
+              <svg class="company-icon">
+                <use href="./img/index/icons.svg#icon-fosters"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="company-list-item">
+            <a class="company-icon-bg" href="">
+              <svg class="company-icon">
+                <use href="./img/index/icons.svg#icon-brand"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="company-list-item">
+            <a class="company-icon-bg" href="">
+              <svg class="company-icon">
+                <use href="./img/index/icons.svg#icon-company"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+  </main>
+  <footer class="footer">
+      <div class="container flex-box">
+        <div class="adress-container">
+        <a href="./index.html" class="main-title footer-title ">Web<span class="title-bottom">Studio</span></a>
+        <div class="adress">
+          <address>
+            <a href="" class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a>
+            <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
+          </address>
+        </div>
       </div>
-    </footer>
+        <div class="main-contact-container">
+          <h2 class="contact-footer-title section-title">присоединяйтесь</h2>
+          <ul class="list flex-box footer-link-list">
+            <li class="footer-link-list-item">
+              <a  class="footer-link-bg" href="">
+                <svg class="footer-icon">
+                  <use href="./img/index/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li  class="footer-link-list-item">
+              <a class="footer-link-bg" href="">
+                <svg class="footer-icon">
+                  <use href="./img/index/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li  class="footer-link-list-item">
+              <a class="footer-link-bg" href="">
+                <svg class="footer-icon">
+                  <use href="./img/index/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li  class="footer-link-list-item">
+              <a class="footer-link-bg" href="">
+                <svg class="footer-icon">
+                  <use href="./img/index/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </footer>
 </body>
 </html>
