@@ -14,7 +14,7 @@
   --background-color: #FFFFFF;
   --title-text-color: #212121;
   --primary-text-color: #757575;
-  --secondary-text-color: rgba(255, 255, 255, 0.8);
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196F3;
   --first-additional-color: #000000;
   --second-additional-color: #2F303A;
@@ -139,7 +139,7 @@ body {
   color: var(--accent-color);
 }
 .header{
-  border: solid 1px var(--header-border-color);
+  border-bottom: solid 1px var(--header-border-color);
 }
 /*foooter*/
 .footer{
@@ -173,7 +173,7 @@ body {
   margin-top: 9px;
   font-style: normal;
   font-weight: 400;
-  font-size: calc(24/14);
+  line-height: calc(24/14);
   text-decoration: none;
   color: var(--secondary-text-color);
 }
@@ -255,12 +255,13 @@ body {
   padding-bottom: 0px;
 }
 .benefits-field{
+  width: 270px;
+  height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
   background-color: var(--benefits-icon-bg-color);
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  align-items: center;
 }
 .benefits-icon{
   width: 70px;
@@ -296,6 +297,9 @@ body {
 }
 
 /* team*/
+.title-team{
+  margin-bottom: 50px;
+}
 .team{
   background-color: var(--third-additional-color);
 }
